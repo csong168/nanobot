@@ -3,13 +3,13 @@ mkdir -p /root/.nanobot
 cat > /root/.nanobot/config.json << EOF
 {
   "providers": {
-    "deepseek": {
-      "apiKey": "${DEEPSEEK_API_KEY}"
+    "gemini": {
+      "apiKey": "${GEMINI_API_KEY}"
     }
   },
   "agents": {
     "defaults": {
-      "model": "deepseek/deepseek-chat"
+      "model": "gemini/gemini-2.0-flash"
     }
   },
   "channels": {
