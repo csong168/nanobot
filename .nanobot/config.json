@@ -1,0 +1,19 @@
+{
+  "providers": {
+    "deepseek": {
+      "apiKey": "sk-b4fd5e912a7b40f58342ff73f066699d"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "deepseek/deepseek-chat"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "token": "8676686418:AAGAN2QAqNKVzzKh7iXTPfuvStxoYMeTwCA",
+      "allowFrom": ["7600823588"]
+    }
+  }
+}
