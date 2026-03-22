@@ -9,7 +9,7 @@ cat > /root/.nanobot/config.json << EOF
   },
   "agents": {
     "defaults": {
-      "model": "gemini/gemini-2.0-flash"
+      "model": "gemini/gemini-2.5-flash"
     }
   },
   "channels": {
